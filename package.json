@@ -1,15 +1,20 @@
 {
-  "name": "webpack-hash-exclude-plugin",
-  "version": "1.0.7",
-  "description": "根据传入参数确定部分chunk打包时忽略chunkhash，html注入js、css文件地址是否取消chunkhash",
+  "name": "@camelot-project/webpack-hash-exclude-plugin",
+  "version": "1.0.0",
+  "description": "Ignore certain files from file name hashing.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamelotProject/webpack-hash-exclude-plugin.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "取消指定chunk的chunkhash，取消html模版中注入的js、css文件的chunkhash"
+    "webpack-plugin",
+    "hash"
   ],
-  "author": "huangzhongzhen",
+  "author": "Gawain Lynch <gawain.lynch@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "html-webpack-plugin": "^3.2.0",
