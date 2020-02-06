@@ -1,0 +1,19 @@
+{
+  "name": "webpack-hash-exclude-plugin",
+  "version": "1.0.7",
+  "description": "根据传入参数确定部分chunk打包时忽略chunkhash，html注入js、css文件地址是否取消chunkhash",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "取消指定chunk的chunkhash，取消html模版中注入的js、css文件的chunkhash"
+  ],
+  "author": "huangzhongzhen",
+  "license": "MIT",
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.17.11",
+    "require-safe": "^1.1.0"
+  }
+}
