@@ -20,9 +20,7 @@
   "author": "Gawain Lynch <gawain.lynch@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "html-webpack-alter-asset-plugin": "^1.0.0",
     "html-webpack-plugin": "^4.0.0-beta.11",
-    "require-safe": "^1.1.0",
     "webpack": "^4.41.5"
   },
   "devDependencies": {
