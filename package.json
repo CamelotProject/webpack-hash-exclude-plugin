@@ -8,7 +8,7 @@
     "url": "git+https://github.com/CamelotProject/webpack-hash-exclude-plugin.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "keywords": [
     "webpack-plugin",
