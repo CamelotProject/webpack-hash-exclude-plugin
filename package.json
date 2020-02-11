@@ -1,6 +1,6 @@
 {
   "name": "@camelot-project/webpack-hash-exclude-plugin",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Ignore certain files from file name hashing.",
   "main": "index.js",
   "repository": {
